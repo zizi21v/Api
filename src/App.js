@@ -7,19 +7,7 @@ import {CardsBox} from './views/CardsBox';
 function App() {
   return (
     <div className='App'>
-     <BrowserRouter>
-    <nav>
-     
-      <li>
-        <Link to="/index">Characarters</Link>
-      </li>
-    </nav>
-    <Routes>
-      
-      <Route path="/index" element={<CardsBox/>}></Route>
-  
-    </Routes>
-    </BrowserRouter>
+     <CardsBox/>
    </div>
   );
 }
